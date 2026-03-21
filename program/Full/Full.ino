@@ -72,33 +72,35 @@ void setup() {
   // }
   // drawRectangle(50, 50);
   // drawLineXY(50, 50);
-  moveX(50);
-  moveY(-50);
+  // moveX(50);
+  // moveY(-50);
   
-  drawRectangle(-100, 100);
+  // drawRectangle(-100, 100);
 
-  moveX(-50);
-  moveY(50);
+  // moveX(-50);
+  // moveY(50);
+
+  drawLineXY_Brench(-50, -50);
 
   // drawRectangle(-100, 100);
   
-  for(int i = 50; i >= -50; i -= 10){
-    drawLineXY(50, -i);
-    moveXY(-50, i);
-  }
-  for(int i = 50; i >= -50; i -= 10){
-    drawLineXY(i, 50);
-    moveXY(-i, -50);
-  }
+  // for(int i = 50; i >= -50; i -= 10){
+  //   drawLineXY(50, -i);
+  //   moveXY(-50, i);
+  // }
+  // for(int i = 50; i >= -50; i -= 10){
+  //   drawLineXY(i, 50);
+  //   moveXY(-i, -50);
+  // }
 
-  for(int i = 50; i >= -50; i -= 10){
-    drawLineXY(-50, i);
-    moveXY(50, -i);
-  }
-  for(int i = 50; i >= -50; i -= 10){
-    drawLineXY(-i, -50);
-    moveXY(i, 50);
-  }
+  // for(int i = 50; i >= -50; i -= 10){
+  //   drawLineXY(-50, i);
+  //   moveXY(50, -i);
+  // }
+  // for(int i = 50; i >= -50; i -= 10){
+  //   drawLineXY(-i, -50);
+  //   moveXY(i, 50);
+  // }
   
 }
 

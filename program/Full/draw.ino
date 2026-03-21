@@ -4,6 +4,12 @@ void drawLineXY(float x, float y){
   markerUp();
 }
 
+void drawLineXY_Brench(float x, float y){
+  markerDown();
+  moveXY_Bresenham(x, y);
+  markerUp();
+}
+
 void drawLineToXY(float x, float y){
   markerDown();
   moveToXY(x, y);
